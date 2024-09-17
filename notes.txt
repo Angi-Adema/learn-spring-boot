@@ -1,0 +1,22 @@
+
+*Manage different configurations for different environments. Create separate profiles for each. Click on the application.properties file CTRL + C, CTRL + V to copy and paste it, hit okay to update the 
+ name and it will create a new file for you. Enter the below levels into each.
+ 
+dev environment
+ - don't want to print logging at debug level, print at trace level.
+ - we configure this in application.properties.
+ - logging.level.org.springframework=trace
+qa environment
+
+stage environment
+production environment
+ - we don't want to log everything, we only want to log info.
+ - logging.level.org.springframework=info
+
+ Logging Levels:
+ trace
+ debug
+ info
+ warning
+ error
+ off
