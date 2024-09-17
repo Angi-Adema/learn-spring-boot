@@ -20,3 +20,6 @@ production environment
  warning
  error
  off
+ 
+C:\Users\angia\bootcamp\project\learn-spring-boot\target\learn-spring-boot-0.0.1-SNAPSHOT.jar
+learn-spring-boot-0.0.1-SNAPSHOT.jar
